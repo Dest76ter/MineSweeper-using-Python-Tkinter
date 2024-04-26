@@ -312,7 +312,7 @@ def backToMainMenu():
     details = generateRandomBoard(dimensions[0][0], dimensions[0][1])
     board = details[0]
     mineCount = details[1]
-    print(mineCount)
+
     
     buttonsclear = set()
     create_board(makeGameboard(board), numberMineBoard(board), makeCoordinates(
